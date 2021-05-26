@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: #2C2B28;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+#logo {
+    font-size: 25px;
+}
+
+ul {
+    transform: rotate(180deg);
+}
+
+ul>li {
+    transform: rotate(-180deg);
+}
+
+.nav-link {
+    color: white;
+}
