@@ -18,6 +18,9 @@ header {
     height: 70px;
     justify-content: space-between;
     padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #logo {
@@ -55,7 +58,7 @@ ul>li {
 
 main {
     height: 750px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./mainPhoto.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./mainPhoto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,12 +83,73 @@ main h3 {
     font-size: 24px;
 }
 
-.btn-outline-warning {
+.talk-with-us {
+    border: #ffa000 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+    padding: 10px 25px;
+}
+
+.talk-with-us:hover {
+    background-color: rgba(1, 1, 1, 0.4);
+}
+
+.more-details {
+    background-color: #ffa000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
     color: white;
 }
 
-.btn-outline-warning:hover {
+.more-details:hover {
+    opacity: 0.9;
+}
+
+.fa-arrow-circle-down {
     color: white;
-    background-color: transparent;
-    filter: brightness(0) invert(1);
+}
+
+main h5 {
+    padding: 15px;
+    line-height: 1.5;
+}
+
+main h5 span {
+    background-color: #fda000;
+    color: #000;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.send-mail {
+    margin: 0;
+}
+
+.send-mail button {
+    background-color: #ffa000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    margin: 5px;
+}
+
+.send-mail input {
+    padding: 10px 25px;
+    background-color: #D2CFCD;
+    border-radius: 5px;
+    color: gray;
+    direction: rtl;
+    margin: 5px;
+}
+
+.fa-hand-point-right {
+    position: absolute;
+    top: 600px;
+    left: 600px;
 }
