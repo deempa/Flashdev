@@ -24,6 +24,10 @@ header {
     font-size: 25px;
 }
 
+#logo:hover {
+    color: #ffa000;
+}
+
 ul {
     transform: rotate(180deg);
 }
@@ -34,4 +38,54 @@ ul>li {
 
 .nav-link {
     color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-item {
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: #ffa000;
+    transition: 0.5s;
+}
+
+main {
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./mainPhoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+main h1 span {
+    font-weight: 200;
+    font-size: 50px;
+}
+
+main h2 {
+    font-weight: 300;
+}
+
+main h3 {
+    font-size: 24px;
+}
+
+.btn-outline-warning {
+    color: white;
+}
+
+.btn-outline-warning:hover {
+    color: white;
+    background-color: transparent;
+    filter: brightness(0) invert(1);
 }
